@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guêpe</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Guepe</h1>
+    </header>
+    <main>
+        <div class="image-container">
+            <img src="guepe.jpg" alt="Guêpe" class="animated-image" onclick="showDetail()">
+        </div>
+        <div id="detail-view" class="detail-view">
+            <span class="close" onclick="closeDetail()">×</span>
+            <img class="detail-image" id="detail-image" src="guepe.jpg" alt="Guêpe en Détail">
+        </div>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html>
